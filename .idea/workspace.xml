@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5b1f5160-c383-4b3e-8752-a2662b1842bc" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YiK7nyDVgD7wal2UR8MoVHFEhT" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+      <recent name="$PROJECT_DIR$/tests/e2e" />
+      <recent name="$PROJECT_DIR$/core/accounts" />
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/core" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django server.intern">
+    <configuration name="intern" type="Python.DjangoServer" factoryName="Django server">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="config.settings.local" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="Tox" factoryName="Tox" nameIsGenerated="true">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/intern/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <arguments>
+        <array />
+      </arguments>
+      <runOnlyEnvs>
+        <array />
+      </runOnlyEnvs>
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_operation.TestOperationAPI.test_create_invoice" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/e2e" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_operation.TestOperationAPI.test_create_invoice&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_operation.TestOperationAPI.test_create_payment" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/e2e" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_operation.TestOperationAPI.test_create_payment&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_operation.TestOperationAPI.test_operation_lettering" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/e2e" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_operation.TestOperationAPI.test_operation_lettering&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/intern/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for tests_member.TestMemberAPI.test_get_roles" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/e2e" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests_member.TestMemberAPI.test_get_roles&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test">
+      <module name="intern" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$USER_HOME$/intern/bin/python" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <EXTENSION ID="net.ashald.envfile">
+        <option name="IS_ENABLED" value="false" />
+        <option name="IS_SUBST" value="false" />
+        <option name="IS_PATH_MACRO_SUPPORTED" value="false" />
+        <option name="IS_IGNORE_MISSING_FILES" value="false" />
+        <option name="IS_ENABLE_EXPERIMENTAL_INTEGRATIONS" value="false" />
+        <ENTRIES>
+          <ENTRY IS_ENABLED="true" PARSER="runconfig" />
+        </ENTRIES>
+      </EXTENSION>
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;intern&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Django server.intern" />
+      <item itemvalue="Python tests.pytest in tests" />
+      <item itemvalue="tox.Unnamed" />
+      <item itemvalue="Python tests.pytest for tests_member.TestMemberAPI.test_get_roles" />
+      <item itemvalue="Python tests.pytest for tests" />
+      <item itemvalue="Python tests.pytest for test_operation.TestOperationAPI.test_create_invoice" />
+      <item itemvalue="Python tests.pytest for test_operation.TestOperationAPI.test_create_payment" />
+      <item itemvalue="Python tests.pytest for test_operation.TestOperationAPI.test_operation_lettering" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_operation.TestOperationAPI.test_operation_lettering" />
+        <item itemvalue="Python tests.pytest for test_operation.TestOperationAPI.test_create_payment" />
+        <item itemvalue="Python tests.pytest for test_operation.TestOperationAPI.test_create_invoice" />
+        <item itemvalue="Python tests.pytest for tests" />
+        <item itemvalue="Python tests.pytest for tests_member.TestMemberAPI.test_get_roles" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5b1f5160-c383-4b3e-8752-a2662b1842bc" name="Default Changelist" comment="" />
+      <created>1583419809035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583419809035</updated>
+      <workItem from="1583419827035" duration="13161000" />
+      <workItem from="1583477274776" duration="1287000" />
+      <workItem from="1583479153748" duration="375000" />
+      <workItem from="1583479540654" duration="31371000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="-791" key="#Test:_tests" timestamp="1583479470694">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="580" y="-791" key="#Test:_tests/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583479470694" />
+    <state x="327" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583483067389">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="327" y="-867" key="#com.intellij.execution.impl.EditConfigurationsDialog/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583483067389" />
+    <state x="3" y="-957" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1583489010971">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="3" y="-957" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583489010971" />
+    <state x="3" y="-957" width="1720" height="857" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583481446133" />
+    <state x="626" y="-818" key="#xdebugger.evaluate" timestamp="1583506778789">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="626" y="-818" key="#xdebugger.evaluate/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583488932937" />
+    <state x="626" y="-818" key="#xdebugger.evaluate/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583506778789" />
+    <state width="1878" height="490" key="GridCell.Tab.0.bottom" timestamp="1583512808981">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.bottom/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583489692273" />
+    <state width="1878" height="490" key="GridCell.Tab.0.bottom/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583512808981" />
+    <state width="1878" height="357" key="GridCell.Tab.0.bottom/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334566" />
+    <state width="1878" height="490" key="GridCell.Tab.0.center" timestamp="1583512808981">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.center/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583489692272" />
+    <state width="1878" height="490" key="GridCell.Tab.0.center/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583512808981" />
+    <state width="1878" height="357" key="GridCell.Tab.0.center/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334566" />
+    <state width="1878" height="490" key="GridCell.Tab.0.left" timestamp="1583512808980">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.left/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583489692271" />
+    <state width="1878" height="490" key="GridCell.Tab.0.left/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583512808980" />
+    <state width="1878" height="357" key="GridCell.Tab.0.left/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334565" />
+    <state width="1878" height="490" key="GridCell.Tab.0.right" timestamp="1583512808981">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="316" key="GridCell.Tab.0.right/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583489692272" />
+    <state width="1878" height="490" key="GridCell.Tab.0.right/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583512808981" />
+    <state width="1878" height="357" key="GridCell.Tab.0.right/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334566" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom" timestamp="1583509897863">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583488944383" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583509897863" />
+    <state width="1878" height="357" key="GridCell.Tab.1.bottom/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334575" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center" timestamp="1583509897863">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.center/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583488944382" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583509897863" />
+    <state width="1878" height="357" key="GridCell.Tab.1.center/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334567" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left" timestamp="1583509897863">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.left/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583488944382" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583509897863" />
+    <state width="1878" height="357" key="GridCell.Tab.1.left/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334566" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right" timestamp="1583509897863">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="357" key="GridCell.Tab.1.right/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583488944382" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583509897863" />
+    <state width="1878" height="357" key="GridCell.Tab.1.right/-97.-1057.1920.1057/0.23.1680.965@-97.-1057.1920.1057" timestamp="1583446334575" />
+    <state x="372" y="-890" key="SettingsEditor" timestamp="1583479525652">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="372" y="-890" key="SettingsEditor/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583479525652" />
+    <state x="3" y="-957" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1583483026428">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="3" y="-957" width="1720" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583483026428" />
+    <state x="556" y="-696" key="com.intellij.ide.util.TipDialog" timestamp="1583477275218">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="556" y="-696" key="com.intellij.ide.util.TipDialog/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583477275218" />
+    <state x="543" y="-772" width="639" height="486" key="find.popup" timestamp="1583429817391">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="543" y="-772" width="639" height="486" key="find.popup/-97.-1057.1920.1057/0.23.1680.961@-97.-1057.1920.1057" timestamp="1583429817391" />
+    <state x="528" y="-822" width="670" height="676" key="search.everywhere.popup" timestamp="1583511416813">
+      <screen x="-97" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="528" y="-822" width="670" height="676" key="search.everywhere.popup/-97.-1057.1920.1057/0.23.1680.963@-97.-1057.1920.1057" timestamp="1583511416813" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/intern/lib/python3.8/site-packages/rest_framework/generics.py</url>
+          <line>287</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/intern/lib/python3.8/site-packages/rest_framework/generics.py</url>
+          <line>284</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/e2e/tests_company.py</url>
+          <line>141</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/tests/e2e/test_operation.py</url>
+          <line>35</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/operations/apps.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/core/operations/signals.py</url>
+          <line>32</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_phones.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_phones Coverage Results" MODIFIED="1583487627707" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_phone.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_phone Coverage Results" MODIFIED="1583487562204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_update_company_phone.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_update_company_phone Coverage Results" MODIFIED="1583487424104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_delete_company_phone.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_delete_company_phone Coverage Results" MODIFIED="1583487023674" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_account.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_account Coverage Results" MODIFIED="1583489117867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_create_company_account.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_create_company_account Coverage Results" MODIFIED="1583489013483" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_crud_company_phone.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_crud_company_phone Coverage Results" MODIFIED="1583484273569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_accounts.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_accounts Coverage Results" MODIFIED="1583489136744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_addresss.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_addresss Coverage Results" MODIFIED="1583488145081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company Coverage Results" MODIFIED="1583482194874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_delete_company.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_delete_company Coverage Results" MODIFIED="1583484263280" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_member_TestMemberAPI_test_get_member.coverage" NAME="pytest for tests_member.TestMemberAPI.test_get_member Coverage Results" MODIFIED="1583493840987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_update_company_address.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_update_company_address Coverage Results" MODIFIED="1583488239883" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_create_company_address.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_create_company_address Coverage Results" MODIFIED="1583488095566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_addresses.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_addresses Coverage Results" MODIFIED="1583488180582" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_e2e_tests_company_TestCompanyAPI_test_get_company_account.coverage" NAME="pytest for tests.e2e.tests_company.TestCompanyAPI.test_get_company_account Coverage Results" MODIFIED="1583489071626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_test_operation_TestOperationAPI_test_operation_lettering.coverage" NAME="pytest for test_operation.TestOperationAPI.test_operation_lettering Coverage Results" MODIFIED="1583511879176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_member_TestMemberAPI_test_get_roles.coverage" NAME="pytest for tests_member.TestMemberAPI.test_get_roles Coverage Results" MODIFIED="1583494404372" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_update_company_account.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_update_company_account Coverage Results" MODIFIED="1583489193831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_in_tests.coverage" NAME="pytest in tests Coverage Results" MODIFIED="1583494808062" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests.coverage" NAME="pytest for tests Coverage Results" MODIFIED="1583494820894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/intern$Test__tests_e2e___init___TestCompanyAPI.coverage" NAME="Test: tests.e2e.__init__.TestCompanyAPI Coverage Results" MODIFIED="1583479100327" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_member_TestMemberAPI_test_create_member.coverage" NAME="pytest for tests_member.TestMemberAPI.test_create_member Coverage Results" MODIFIED="1583490941710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_test_operation_TestOperationAPI_test_create_payment.coverage" NAME="pytest for test_operation.TestOperationAPI.test_create_payment Coverage Results" MODIFIED="1583510775218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$Test__tests.coverage" NAME="Test: tests Coverage Results" MODIFIED="1583480543893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_address.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_address Coverage Results" MODIFIED="1583488123615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_delete_company_account.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_delete_company_account Coverage Results" MODIFIED="1583489692264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_get_company_accountes.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_get_company_accountes Coverage Results" MODIFIED="1583489121665" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_tests_company_TestCompanyAPI_test_patch_company.coverage" NAME="pytest for tests_company.TestCompanyAPI.test_patch_company Coverage Results" MODIFIED="1583484257452" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+    <SUITE FILE_PATH="coverage/intern$pytest_for_test_operation_TestOperationAPI_test_create_invoice.coverage" NAME="pytest for test_operation.TestOperationAPI.test_create_invoice Coverage Results" MODIFIED="1583508374230" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests/e2e" />
+  </component>
+</project>
