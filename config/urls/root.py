@@ -12,12 +12,12 @@ def home(request):
 
 
 _urlpatterns = [
-                   path('admin/', admin.site.urls, name="admin"),
-                   path('pages/', include('django.contrib.flatpages.urls')),
-                   url(r'^_nested_admin/', include('nested_admin.urls')),
-               ] + static(
-    settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
-)
+    path('admin/', admin.site.urls, name="admin"),
+    path('pages/', include('django.contrib.flatpages.urls')),
+    url(r'^_nested_admin/', include('nested_admin.urls')),
+]
+
+_urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
     # This allows the error pages to be debugged during development, just visit

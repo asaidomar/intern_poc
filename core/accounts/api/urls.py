@@ -10,7 +10,6 @@ from django.urls import path
 
 from . import views
 
-
 urlpatterns = [
     path('companies/', views.CompaniesListView.as_view(),
          name='manage_companies'),
@@ -31,9 +30,11 @@ urlpatterns = [
          views.CompanyAddressView.as_view(),
          name='manage_company_address'),
 
-    path('companies/<int:company>/accounts', views.AccountListView.as_view(),
+    path('companies/<int:company>/accounts',
+         views.AccountListView.as_view(),
          name='manage_company_accounts'),
-    path('companies/<int:company>/accounts/<int:pk>', views.AccountView.as_view(),
+    path('companies/<int:company>/accounts/<int:pk>',
+         views.AccountView.as_view(),
          name='manage_company_account'),
 
     path('companies/<int:company>/accounts/<int:account>/roles',
@@ -47,4 +48,4 @@ urlpatterns = [
          name='manage_members'),
     path('members/<int:pk>', views.MemberView.as_view(),
          name='manage_member'),
-    ]
+]

@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # filename : fake_data
 # project: intern
 # author : alisaidomar
 from datetime import datetime
 
 from django.contrib.auth.models import User
-from django.core.management.base import BaseCommand, CommandError
+from django.core.management.base import BaseCommand
 from mixer.backend.django import mixer
 
 from core.accounts.models import (
@@ -77,15 +77,10 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         pass
-        #parser.add_argument('poll_ids', , type=int)
 
     def handle(self, *args, **options):
         for c in generate_compagnies(10):
             acc = create_account(c)
             for _ in range(100):
-                pay = create_payment(acc)
-                invoice = create_invoice(acc, c)
-
-
-
-
+                create_payment(acc)
+                create_invoice(acc, c)

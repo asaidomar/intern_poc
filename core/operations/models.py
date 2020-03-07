@@ -1,5 +1,3 @@
-import datetime
-
 from django.db import models
 
 
@@ -124,7 +122,8 @@ class Operation(models.Model):
         (credit_c, "Avoir")
     ]
     account = models.ForeignKey(
-        'accounts.Account', on_delete=models.DO_NOTHING, related_name="operations")
+        'accounts.Account', on_delete=models.DO_NOTHING,
+        related_name="operations")
     creation_date = models.DateField(auto_now=True)
     operation_type = models.CharField(choices=operation_type, max_length=255)
     credit_amount = models.DecimalField(max_digits=19, decimal_places=10)
@@ -152,4 +151,3 @@ class Operation(models.Model):
             return self.invoice.documents
         elif self.operation_type == self.payment:
             return self.payment.documents
-

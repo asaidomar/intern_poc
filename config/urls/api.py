@@ -13,17 +13,17 @@ def home(request):
 
 
 urlpatterns = [
-                  url(r'^rest/accounts/', include('core.accounts.api.urls')),
-                  url(r'^rest/operations/', include('core.operations.api.urls')),
-                  url(r'^ui/$', schema_view),
-                  url(r'^front/index.html', home),
+    url(r'^rest/accounts/', include('core.accounts.api.urls')),
+    url(r'^rest/operations/', include('core.operations.api.urls')),
+    url(r'^ui/$', schema_view),
+    url(r'^front/index.html', home),
+]
 
-              ] + static(
-    settings.MEDIA_URL, document_root=settings.MEDIA_ROOT
-)
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 
 if settings.DEBUG:
     if "debug_toolbar" in settings.INSTALLED_APPS:
         import debug_toolbar
+
         urlpatterns = [url(r"^__debug__/", include(debug_toolbar.urls))] \
                       + urlpatterns

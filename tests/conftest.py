@@ -64,7 +64,8 @@ def create_member(create_role):
 
 @pytest.fixture
 def create_invoice(create_account, create_company):
-    invoice = mixer.blend(Invoice, account=create_account, client=create_company)
+    invoice = mixer.blend(
+        Invoice, account=create_account, client=create_company)
     return invoice
 
 

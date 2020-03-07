@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # filename : views
 # project: intern
@@ -82,8 +82,8 @@ class CreditView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = CreditSerializer
     lookup_url_kwarg = 'pk'
     queryset = Credit.objects.filter()
-    
-    
+
+
 class LetteringListView(generics.ListCreateAPIView):
     """ List Letterings view """
     serializer_class = LetteringSerializer
@@ -102,7 +102,7 @@ class LetteringView(generics.RetrieveUpdateDestroyAPIView):
     lookup_url_kwarg = 'pk'
     queryset = Lettering.objects.filter()
 
-    
+
 class UnpaidListView(generics.ListCreateAPIView):
     """ List Unpaids view """
     serializer_class = UnpaidSerializer
@@ -121,8 +121,8 @@ class UnpaidView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = UnpaidSerializer
     lookup_url_kwarg = 'pk'
     queryset = Unpaid.objects.filter()
-    
-    
+
+
 class MiscListView(generics.ListCreateAPIView):
     """ List Miscs view """
     serializer_class = MiscSerializer
@@ -160,8 +160,8 @@ class ActionView(generics.RetrieveUpdateDestroyAPIView):
     serializer_class = ActionSerializer
     lookup_url_kwarg = 'pk'
     queryset = Action.objects.filter()
-    
-    
+
+
 class RecoveryListView(generics.ListCreateAPIView):
     """ List Recoverys view """
     serializer_class = RecoverySerializer

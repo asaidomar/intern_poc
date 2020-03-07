@@ -193,7 +193,6 @@ class TestCompanyAPI:
             "iban": "25353563GRDFFDFD",
             "bank": "SG",
             "company": create_company.pk,
-            "contract_number": "CCCSFFS"
         }
         ret = self.client.post(
             path=reverse(

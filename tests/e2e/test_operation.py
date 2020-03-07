@@ -10,7 +10,7 @@ import pytest
 from django.urls import reverse
 from rest_framework.test import APIClient
 
-from core.operations.models import Operation, Invoice
+from core.operations.models import Operation
 
 
 @pytest.mark.urls('config.urls.api')
@@ -49,17 +49,20 @@ class TestOperationAPI:
     def test_lettering_payment(self, create_account):
         invoice_data = {
             "code": "AD_300",
+            "account": create_account.pk
         }
-        path = reverse("manage_letterings", kwargs={"account": create_account.pk})
+        path = reverse("manage_letterings",
+                       kwargs={"account": create_account.pk})
         ret = self.client.post(path, data=invoice_data, format="json")
         assert ret.status_code == 201
-        assert Operation.objects.first().payment.pk == ret.json()["id"]
 
-    def test_operation_lettering(self, create_invoice, create_payment, create_lettering):
+    def test_operation_lettering(self, create_invoice,
+                                 create_payment, create_lettering):
         operation = Operation.objects.first()
 
-        path = reverse("manage_operation",
-                       kwargs={"account": create_invoice.pk, "pk": operation.pk})
+        path = reverse(
+            "manage_operation",
+            kwargs={"account": create_invoice.pk, "pk": operation.pk})
         data = {"lettering": create_lettering.pk}
         ret = self.client.patch(path, data=data, format="json")
 

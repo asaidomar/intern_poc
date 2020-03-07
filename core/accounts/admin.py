@@ -1,10 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
-
-
 from core.accounts.models import (
-    Member, Role, Company, Account, CompanyAddress, CompanyPhone, Contract, ContractDocument
+    Member, Role, Company, Account, CompanyAddress,
+    CompanyPhone, Contract, ContractDocument
 )
 
 
@@ -26,6 +24,7 @@ class CompanyAdmin(admin.ModelAdmin):
 @admin.register(Account)
 class AccountAdmin(admin.ModelAdmin):
     pass
+
 
 @admin.register(CompanyAddress)
 class CompanyAddressAdmin(admin.ModelAdmin):

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-#-*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 
 # filename : serializers
 # project: intern
@@ -8,7 +8,8 @@
 from rest_framework import serializers
 
 from core.operations.models import (
-    Invoice, Payment, Misc, Credit, Unpaid, Recovery, Action, Lettering, Operation)
+    Invoice, Payment, Misc, Credit, Unpaid, Recovery, Action,
+    Lettering, Operation)
 
 
 class InvoiceSerializer(serializers.ModelSerializer):
@@ -60,7 +61,7 @@ class UnpaidSerializer(serializers.ModelSerializer):
         fields = '__all__'
         read_only_fields = ("pk", )
 
-        
+
 class RecoverySerializer(serializers.ModelSerializer):
     """ `core.operations.models.Recovery` serializer """
 
@@ -79,7 +80,7 @@ class ActionSerializer(serializers.ModelSerializer):
         model = Action
         fields = '__all__'
         read_only_fields = ("pk", )
-        
+
 
 class LetteringSerializer(serializers.ModelSerializer):
     """ `core.operations.models.Lettering` serializer """
@@ -89,8 +90,8 @@ class LetteringSerializer(serializers.ModelSerializer):
         model = Lettering
         fields = '__all__'
         read_only_fields = ("pk", )
-        
-        
+
+
 class OperationSerializer(serializers.ModelSerializer):
     """ `core.operations.models.Operation` serializer """
 

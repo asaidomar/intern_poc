@@ -6,7 +6,8 @@ class Role(models.Model):
     name = models.CharField(max_length=255)
     company = models.ForeignKey("Company", on_delete=models.CASCADE)
     # role possible only over company
-    account = models.ForeignKey("Account", on_delete=models.CASCADE, blank=True, null=True)
+    account = models.ForeignKey(
+        "Account", on_delete=models.CASCADE, blank=True, null=True)
 
     def __str__(self):
         return f"{self.name} ({self.account})"
@@ -19,7 +20,8 @@ class CompanyGroup(models.Model):
 
 class Member(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
-    roles = models.ManyToManyField(Role, blank=True, null=True, related_name="members")
+    roles = models.ManyToManyField(
+        Role, blank=True, null=True, related_name="members")
 
     def __str__(self):
         return str(self.user)

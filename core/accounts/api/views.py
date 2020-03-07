@@ -15,9 +15,11 @@ import logger
 
 
 # pylint: disable=invalid-name
-from core.accounts.api.serializers import CompanySerializer, CompanyPhoneSerializer, CompanyAddressSerializer, \
-    AccountSerializer, RoleSerializer, MemberSerializer
-from core.accounts.models import Company, CompanyPhone, CompanyAddress, Account, Role, Member
+from core.accounts.api.serializers import (
+    CompanySerializer, CompanyPhoneSerializer, CompanyAddressSerializer,
+    AccountSerializer, MemberSerializer)
+from core.accounts.models import (
+    Company, CompanyPhone, CompanyAddress, Account, Role, Member)
 
 op_logger = logger.get_logger(__file__)
 
